@@ -89,9 +89,16 @@ REPOEOF
             CREATED=$(echo "$pr" | jq -r '.createdAt')
             UPDATED=$(echo "$pr" | jq -r '.updatedAt')
 
-            # Format dates
-            CREATED_DATE=$(date -j -f "%Y-%m-%dT%H:%M:%SZ" "$CREATED" "+%Y-%m-%d %H:%M" 2>/dev/null || echo "$CREATED")
-            UPDATED_DATE=$(date -j -f "%Y-%m-%dT%H:%M:%SZ" "$UPDATED" "+%Y-%m-%d %H:%M" 2>/dev/null || echo "$UPDATED")
+            # Format dates (cross-platform compatible)
+            if date --version >/dev/null 2>&1; then
+                # GNU date (Linux)
+                CREATED_DATE=$(date -d "$CREATED" "+%Y-%m-%d %H:%M" 2>/dev/null || echo "$CREATED")
+                UPDATED_DATE=$(date -d "$UPDATED" "+%Y-%m-%d %H:%M" 2>/dev/null || echo "$UPDATED")
+            else
+                # BSD date (macOS)
+                CREATED_DATE=$(date -j -f "%Y-%m-%dT%H:%M:%SZ" "$CREATED" "+%Y-%m-%d %H:%M" 2>/dev/null || echo "$CREATED")
+                UPDATED_DATE=$(date -j -f "%Y-%m-%dT%H:%M:%SZ" "$UPDATED" "+%Y-%m-%d %H:%M" 2>/dev/null || echo "$UPDATED")
+            fi
 
             # Fetch detailed PR info to get review and CI status
             PR_DETAILS=$(gh pr view "$NUMBER" --repo "$REPO" --json reviewDecision,statusCheckRollup 2>/dev/null || echo '{}')
@@ -155,8 +162,9 @@ EOF
     done
 fi
 
-# Create/update symlink to latest report (use relative path for GitHub compatibility)
-ln -sf "$(basename ${OUTPUT_FILE})" "${LATEST_LINK}"
+# Create/update link to latest report
+# Use cp instead of ln for better GitHub Actions compatibility
+cp "${OUTPUT_FILE}" "${LATEST_LINK}"
 
 echo ""
 echo "✅ Report generated successfully!"
