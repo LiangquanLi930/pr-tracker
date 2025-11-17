@@ -1,0 +1,11 @@
+# 本地 cron 日志
+cron.log
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
