@@ -155,8 +155,8 @@ EOF
     done
 fi
 
-# Create/update symlink to latest report
-ln -sf "${OUTPUT_FILE}" "${LATEST_LINK}"
+# Create/update symlink to latest report (use relative path for GitHub compatibility)
+ln -sf "$(basename ${OUTPUT_FILE})" "${LATEST_LINK}"
 
 echo ""
 echo "✅ Report generated successfully!"
