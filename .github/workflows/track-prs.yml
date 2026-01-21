@@ -45,6 +45,9 @@ jobs:
 
       - name: Commit and Push Report
         run: |
+          # 先拉取最新的更改以避免冲突
+          git pull --rebase origin main
+
           git add reports/
 
           # 检查是否有变化
@@ -92,6 +95,9 @@ jobs:
 
       - name: Commit and Push Report
         run: |
+          # 先拉取最新的更改以避免冲突
+          git pull --rebase origin main
+
           git add reports/
 
           # 检查是否有变化
