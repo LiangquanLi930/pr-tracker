@@ -67,6 +67,7 @@ jobs:
 
   track-review-requests:
     runs-on: ubuntu-latest
+    needs: track-prs  # 等待 track-prs job 完成后再执行
 
     steps:
       - name: Checkout repository
