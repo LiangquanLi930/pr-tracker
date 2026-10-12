@@ -1,13 +1,13 @@
 # Open Pull Requests for @LiangquanLi930
 
-**Generated:** 2026-10-11 06:37:40 UTC
+**Generated:** 2026-10-12 06:46:33 UTC
 
 ---
 
 ## Summary
 
-- **Total Open PRs:** 3
-- **Repositories:** 3
+- **Total Open PRs:** 2
+- **Repositories:** 2
 - **User:** @LiangquanLi930
 
 ---
@@ -36,20 +36,6 @@
 | 🔧 **CI Status** | ❌ Failed |
 | 📅 **Created** | 2026-01-15 13:58 |
 | 🔄 **Last Updated** | 2026-10-07 14:23 |
-
-
----
-
-## 📦 smartxworks/cluster-api-provider-elf (1 PRs)
-
-### [#223](https://github.com/smartxworks/cluster-api-provider-elf/pull/223) fix(manager): bypass shared cache for Secret reads
-
-| | |
-|---|---|
-| 📝 **Review Status** | ⏳ Pending Review |
-| 🔧 **CI Status** | ⚪ No CI |
-| 📅 **Created** | 2026-10-08 11:51 |
-| 🔄 **Last Updated** | 2026-10-10 06:10 |
 
 
 ---
