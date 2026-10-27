@@ -1,6 +1,6 @@
 # Pull Requests Requiring Attention from @LiangquanLi930
 
-**Generated:** 2026-10-26 05:36:03 UTC
+**Generated:** 2026-10-27 05:48:26 UTC
 
 ---
 
@@ -30,7 +30,7 @@
 | 🔧 **CI Status** | ❌ Failed |
 | 🔍 **Your Review** | 🔔 Awaiting your review |
 | 📅 **Created** | 2026-03-26 06:58 |
-| 🔄 **Last Updated** | 2026-04-25 13:30 |
+| 🔄 **Last Updated** | 2026-10-26 08:30 |
 
 ### [#78513](https://github.com/openshift/release/pull/78513) CNTRLPLANE-2635: Add guest node kernel isolation CI test with version skew for HyperShift KubeVirt
 
