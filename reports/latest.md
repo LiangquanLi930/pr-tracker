@@ -1,6 +1,6 @@
 # Open Pull Requests for @LiangquanLi930
 
-**Generated:** 2026-11-10 07:53:33 UTC
+**Generated:** 2026-11-11 07:21:27 UTC
 
 ---
 
@@ -14,14 +14,14 @@
 
 ## 📦 kubernetes-sigs/cluster-api (1 PRs)
 
-### [#14035](https://github.com/kubernetes-sigs/cluster-api/pull/14035) 📖 in-place updates: extension-declared Machine preservation on insufficient coverage
+### [#14035](https://github.com/kubernetes-sigs/cluster-api/pull/14035) 📖 Update in-place update proposal to add support for allowedOperations and retryAfterSeconds
 
 | | |
 |---|---|
 | 📝 **Review Status** | ⏳ Pending Review |
 | 🔧 **CI Status** | 🟡 Pending |
 | 📅 **Created** | 2026-08-06 06:36 |
-| 🔄 **Last Updated** | 2026-11-10 07:18 |
+| 🔄 **Last Updated** | 2026-11-10 13:13 |
 
 
 ---
