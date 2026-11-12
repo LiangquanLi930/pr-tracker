@@ -1,6 +1,6 @@
 # Pull Requests Requiring Attention from @LiangquanLi930
 
-**Generated:** 2026-11-11 07:21:42 UTC
+**Generated:** 2026-11-12 07:51:41 UTC
 
 ---
 
@@ -42,7 +42,7 @@
 | 🔧 **CI Status** | ❌ Failed |
 | 🔍 **Your Review** | 🔔 Awaiting your review |
 | 📅 **Created** | 2026-04-28 21:01 |
-| 🔄 **Last Updated** | 2026-11-09 09:44 |
+| 🔄 **Last Updated** | 2026-11-12 04:49 |
 
 ### [#79116](https://github.com/openshift/release/pull/79116) CNTRLPLANE-3425: add --limit-crd-install flag for Azure and GCP in HyperShift install step
 
@@ -54,7 +54,7 @@
 | 🔧 **CI Status** | ❌ Failed |
 | 🔍 **Your Review** | 🔔 Awaiting your review |
 | 📅 **Created** | 2026-05-11 12:53 |
-| 🔄 **Last Updated** | 2026-09-09 16:41 |
+| 🔄 **Last Updated** | 2026-11-12 04:32 |
 
 
 ---
