@@ -1,6 +1,6 @@
 # Open Pull Requests for @LiangquanLi930
 
-**Generated:** 2026-11-16 07:27:53 UTC
+**Generated:** 2026-11-17 08:40:41 UTC
 
 ---
 
@@ -32,7 +32,7 @@
 
 | | |
 |---|---|
-| 📝 **Review Status** | ⏳ Pending Review |
+| 📝 **Review Status** | ⏳ Review Required |
 | 🔧 **CI Status** | ❌ Failed |
 | 📅 **Created** | 2026-01-15 13:58 |
 | 🔄 **Last Updated** | 2026-10-07 14:23 |
