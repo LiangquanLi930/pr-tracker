@@ -1,24 +1,24 @@
 # Pull Requests Requiring Attention from @LiangquanLi930
 
-**Generated:** 2026-11-18 08:03:35 UTC
+**Generated:** 2026-11-19 08:09:58 UTC
 
 ---
 
 ## Summary
 
-- **Total PRs Requiring Attention:** 3
+- **Total PRs Requiring Attention:** 2
 - **User:** @LiangquanLi930
 
 ### Categories
 
 - 🔍 **Review Requested:** 1
 - 📌 **Assigned to You:** 0
-- 💬 **Mentioned:** 2
+- 💬 **Mentioned:** 1
 - 👥 **Team Review:** 0
 
 ---
 
-## 📦 openshift/release (3 PRs)
+## 📦 openshift/release (2 PRs)
 
 ### [#76885](https://github.com/openshift/release/pull/76885) [OCPQE-31884]:Fix the rosa provision failure when the https proxy val…
 
@@ -43,18 +43,6 @@
 | 🔍 **Your Review** | 🔔 Awaiting your review |
 | 📅 **Created** | 2026-04-28 21:01 |
 | 🔄 **Last Updated** | 2026-11-12 04:49 |
-
-### [#79116](https://github.com/openshift/release/pull/79116) CNTRLPLANE-3425: add --limit-crd-install flag for Azure and GCP in HyperShift install step
-
-| | |
-|---|---|
-| 🏷️  **Reason** | Mentioned |
-| 👤 **Author** | @jparrill |
-| 📝 **Review Status** | ⏳ Pending Review |
-| 🔧 **CI Status** | ❌ Failed |
-| 🔍 **Your Review** | 🔔 Awaiting your review |
-| 📅 **Created** | 2026-05-11 12:53 |
-| 🔄 **Last Updated** | 2026-11-12 04:32 |
 
 
 ---
