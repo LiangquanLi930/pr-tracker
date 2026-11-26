@@ -1,36 +1,24 @@
 # Pull Requests Requiring Attention from @LiangquanLi930
 
-**Generated:** 2026-11-25 09:23:22 UTC
+**Generated:** 2026-11-26 09:00:53 UTC
 
 ---
 
 ## Summary
 
-- **Total PRs Requiring Attention:** 2
+- **Total PRs Requiring Attention:** 1
 - **User:** @LiangquanLi930
 
 ### Categories
 
-- 🔍 **Review Requested:** 1
+- 🔍 **Review Requested:** 0
 - 📌 **Assigned to You:** 0
 - 💬 **Mentioned:** 1
 - 👥 **Team Review:** 0
 
 ---
 
-## 📦 openshift/release (2 PRs)
-
-### [#76885](https://github.com/openshift/release/pull/76885) [OCPQE-31884]:Fix the rosa provision failure when the https proxy val…
-
-| | |
-|---|---|
-| 🏷️  **Reason** | Review Requested |
-| 👤 **Author** | @jimma |
-| 📝 **Review Status** | ⏳ Pending Review |
-| 🔧 **CI Status** | ❌ Failed |
-| 🔍 **Your Review** | 🔔 Awaiting your review |
-| 📅 **Created** | 2026-03-26 06:58 |
-| 🔄 **Last Updated** | 2026-10-26 08:30 |
+## 📦 openshift/release (1 PRs)
 
 ### [#78513](https://github.com/openshift/release/pull/78513) CNTRLPLANE-2635: Add guest node kernel isolation CI test with version skew for HyperShift KubeVirt
 
