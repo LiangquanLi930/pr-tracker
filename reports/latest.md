@@ -1,14 +1,28 @@
 # Open Pull Requests for @LiangquanLi930
 
-**Generated:** 2026-11-26 09:00:43 UTC
+**Generated:** 2026-11-27 09:16:55 UTC
 
 ---
 
 ## Summary
 
-- **Total Open PRs:** 1
-- **Repositories:** 1
+- **Total Open PRs:** 2
+- **Repositories:** 2
 - **User:** @LiangquanLi930
+
+---
+
+## 📦 kubernetes-sigs/karpenter-provider-cluster-api (1 PRs)
+
+### [#123](https://github.com/kubernetes-sigs/karpenter-provider-cluster-api/pull/123) chore: bump Cluster API to v1.13 and Karpenter to v1.14
+
+| | |
+|---|---|
+| 📝 **Review Status** | ⏳ Pending Review |
+| 🔧 **CI Status** | 🟡 Pending |
+| 📅 **Created** | 2026-11-26 10:08 |
+| 🔄 **Last Updated** | 2026-11-26 12:10 |
+
 
 ---
 
